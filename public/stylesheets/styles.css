@@ -63,7 +63,7 @@ button {
   margin: none;
   padding: 2% 15%;
 }
-input[type="text"] {
+input[type="tel"] {
   border: none;
   text-align: center;
   font-size: 2.5rem;
@@ -143,7 +143,7 @@ button.start {
     font-size: 4.5rem;
   }
   input.start,
-  input[type="text"] {
+  input[type="tel"] {
     font-size: 2rem;
   }
   label {
