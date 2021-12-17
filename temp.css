@@ -1,0 +1,126 @@
+body {
+  font-family: "M PLUS 1 Code", sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 20px;
+  color: rgb(255, 248, 240);
+  background-color: rgb(30, 30, 36);
+  height: 100%;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 248, 240);
+}
+button {
+  border: none;
+  background-color: rgb(146, 20, 12);
+  color: rgb(255, 248, 240);
+}
+main {
+  margin: auto;
+  width: 100%;
+}
+h1.title {
+  color: rgb(255, 207, 153);
+  margin: auto;
+  margin-top: 30px;
+  width: 50%;
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+h3 {
+  color: rgb(255, 248, 240);
+  text-align: center;
+  margin: 50px 0;
+}
+h3.guesses {
+  color: rgb(255, 207, 153);
+}
+div.setup {
+  display: flex;
+  flex-direction: column;
+}
+div.setup input,
+div.setup label {
+  width: 45%;
+  height: 2rem;
+  margin: auto;
+  margin-top: 10px;
+}
+div.setup label {
+  font-size: 1.5rem;
+  margin-top: 50px;
+}
+div.setup input {
+  border: none;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 400;
+  border-radius: 6px;
+  margin-top: 20px;
+  height: 40px;
+  background-color: rgb(155, 155, 171);
+}
+div.setup input.start {
+  background-color: rgb(146, 20, 12);
+  border-radius: 6px;
+  cursor: pointer;
+  color: rgb(255, 248, 240);
+  font-size: 1.5rem;
+  text-decoration: none;
+  width: 30%;
+  height: 3rem;
+  margin-top: 40px;
+  font-family: "M PLUS 1 Code", sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+div.setup input.start:hover {
+  background-color: rgb(132, 19, 11);
+}
+button {
+  background-color: rgb(146, 20, 12);
+  border-radius: 6px;
+  cursor: pointer;
+  color: rgb(255, 248, 240);
+  font-size: 1.5rem;
+  padding: 12px 50px;
+  text-decoration: none;
+  font-family: "M PLUS 1 Code", sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
+  margin-top: 50px;
+}
+button:hover {
+  background-color: rgb(132, 19, 11);
+}
+button:active {
+  position: relative;
+  top: 1px;
+}
+button.start {
+  margin: auto;
+  font-family: "M PLUS 1 Code", sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 1.5rem;
+}
+div.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+li.flash {
+  color: rgb(226, 32, 18);
+  list-style-type: none;
+  font-size: 1rem;
+  padding-top: 5px;
+}
+ul {
+  text-align: center;
+  margin: none;
+  padding: none;
+  padding-inline-start: 0px;
+}
