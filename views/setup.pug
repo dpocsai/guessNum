@@ -1,0 +1,9 @@
+extends layout
+block main 
+  form.minmax(action="setup" method="post")
+    div.setup
+      label(for="min") Minimum: 
+      input(type="text" id="min" name="min" placeholder="1" value=1)
+      label(for="max") Maximum: 
+      input(type="text" id="max" name="max" placeholder="1000" value=1000)
+      input.start(type="submit" value="Start!")

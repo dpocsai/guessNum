@@ -1,0 +1,19 @@
+doctype html
+html(lang='en')
+  head 
+    title GuessNum
+    link(rel="stylesheet", href="/stylesheets/styles.css")
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300&family=PT+Sans+Narrow:wght@700&display=swap" rel="stylesheet">
+  body 
+    a.test(href="/") 
+      h1.title GuessNum
+    main 
+      -let messageTypes = Object.keys(flash || {});
+      if messageTypes.length > 0
+        ul 
+          each messageType in messageTypes 
+            each message in flash[messageType]
+              li.flash(class=messageType)= message
+    block main

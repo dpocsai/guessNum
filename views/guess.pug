@@ -1,0 +1,10 @@
+extends layout 
+
+block main 
+  h1 #{currentGuess}
+  h3.guesses Guesses left: #{guessesLeft}
+  div.buttons
+    a(href="/guess/higher") 
+      button.higher Higher
+    a(href="/guess/lower") 
+      button.lower Lower 

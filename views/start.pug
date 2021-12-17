@@ -1,0 +1,8 @@
+extends layout 
+
+block main 
+  h3 #{`Think of a number from ${min} to ${max}`.} 
+  h3 #{`I will guess it in ${guesses} tries or less!`}
+  div.buttons
+    a(href=`/guess`) 
+      button.start Ready
